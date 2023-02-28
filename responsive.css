@@ -42,17 +42,25 @@
     width: 200px;
     position: absolute;
   }
+  .slogans {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .slogan-1 {
     font-size: 5vw;
     position: absolute;
-    top: 420px;
-    left: 14%;
+    top: 425px;
+    left: 13%;
   }
   .slogan-2 {
     font-size: 5vw;
     position: absolute;
     top: 450px;
-    left: 17%;
+    left: 15.6%;
   }
   @keyframes animated-text {
     from {
@@ -79,7 +87,7 @@
 }
 @media screen and (max-width: 375px) {
   .background-animated {
-    height: 580px;
+    height: 568px;
   }
   .my-img-container {
     width: 100%;
@@ -97,13 +105,13 @@
     font-size: 5vw;
     position: absolute;
     top: 402px;
-    left: 14%;
+    left: 13%;
   }
   .slogan-2 {
     font-size: 5vw;
     position: absolute;
     top: 425px;
-    left: 17%;
+    left: 15.7%;
   }
   .buttons-container {
     top: 410px;
