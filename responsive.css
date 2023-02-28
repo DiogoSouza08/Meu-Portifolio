@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .menu-toggle:focus + .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+  }
+  .menu-toggle:focus + .menu ul {
+    flex-direction: column;
+  }
+  .menu-toggle:focus + .menu li {
+    margin: 10px 0;
+  }
+  .menu-toggle:focus + .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 478px) {
+  .background-animated {
+    height: 800px;
+  }
+  .my-img-container {
+    width: 100%;
+    top: 250px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-img {
+    width: 200px;
+    position: absolute;
+  }
+  .slogan-1 {
+    font-size: 5vw;
+    position: absolute;
+    top: 480px;
+    left: 14%;
+  }
+  .slogan-2 {
+    font-size: 5vw;
+    position: absolute;
+    top: 505px;
+    left: 17%;
+  }
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
+  }
+  .buttons-container {
+    display: block;
+    top: 500px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    left: 0%;
+  }
+  .fade {
+    line-height: 300%;
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .background-animated {
+    height: 600px;
+  }
+  .my-img-container {
+    width: 100%;
+    top: 205px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-img {
+    width: 180px;
+    position: absolute;
+  }
+  .slogan-1 {
+    font-size: 5vw;
+    position: absolute;
+    top: 402px;
+    left: 14%;
+  }
+  .slogan-2 {
+    font-size: 5vw;
+    position: absolute;
+    top: 425px;
+    left: 17%;
+  }
+  .buttons-container {
+    top: 430px;
+    width: 70%;
+    left: 15%;
+    display: flex;
+  }
+}/*# sourceMappingURL=responsive.css.map */
