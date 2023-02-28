@@ -1,138 +1,148 @@
 @media screen and (max-width: 768px) {
-    .menu {
-      display: none;
-    }
+  .menu {
+    display: none;
+  }
 
-    .menu-toggle {
-      display: block;
-    }
+  .menu-toggle {
+    display: block;
+  }
 
-    .menu-toggle:focus + .menu {
-      display: flex;
+  .menu-toggle:focus + .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+
+    ul {
       flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      padding: 10px;
-
-      ul {
-        flex-direction: column;
-      }
-
-      li {
-        margin: 10px 0;
-      }
-
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
     }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 
 
 
 }
 
 @media screen and (max-width: 478px) {
- 
-  .background-animated{
-    height: 630px;
+
+.background-animated{
+  height: 630px;
+}
+
+.my-img-container {
+  width: 100%;
+  top: 215px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-img {
+  width: 200px;
+  position: absolute;
+}
+
+.slogans{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.slogan-1{
+  font-size: 5vw;
+  position: absolute;
+  top: 425px;
+  left: 13%;
+
+}
+.slogan-2{
+  font-size: 5vw;
+  position: absolute;
+  top: 450px;
+  left: 15.6%;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 85%;}
   }
+
+  .buttons-container{
+  display: flex;
+  top: 440px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  left: 0%;
   
-  .my-img-container {
-    width: 100%;
-    top: 215px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   
-  .my-img {
-    width: 200px;
-    position: absolute;
-  }
-  
-
-  .slogan-1{
-    font-size: 5vw;
-    position: absolute;
-    top: 420px;
-    left: 14%;
-  }
-  .slogan-2{
-    font-size: 5vw;
-    position: absolute;
-    top: 450px;
-    left: 17%;
-  }
-
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 85%;}
-    }
-
-    .buttons-container{
-    display: flex;
-    top: 440px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    left: 0%;
-    
-
-    
-  }
+}
 
 .fade{
-  line-height: 300%;
-  font-size: 3.5vw;
+line-height: 300%;
+font-size: 3.5vw;
 }
 
 }
 
 @media screen and (max-width: 375px) {
 
-  .background-animated{
-    height: 580px;
-  }
-  
-  .my-img-container {
-    width: 100%;
-    top: 205px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .my-img {
-    width: 180px;
-    position: absolute;
-  }
-  
-  .slogan-1{
-    font-size: 5vw;
-    position: absolute;
-    top: 402px;
-    left: 14%;
-  }
-  .slogan-2{
-    font-size: 5vw;
-    position: absolute;
-    top: 425px;
-    left: 17%;
-  }
+.background-animated{
+  height: 568px;
+}
 
-  .buttons-container{
-    top: 410px;
-    width: 70%;
-    left: 15%;
-    display: flex;
+.my-img-container {
+  width: 100%;
+  top: 205px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  }
+.my-img {
+  width: 180px;
+  position: absolute;
+}
+
+.slogan-1{
+  font-size: 5vw;
+  position: absolute;
+  top: 402px;
+  left: 13%;
+}
+.slogan-2{
+  font-size: 5vw;
+  position: absolute;
+  top: 425px;
+  left: 15.7%;
+
+}
+
+.buttons-container{
+  top: 410px;
+  width: 70%;
+  left: 15%;
+  display: flex;
+
+}
 }
