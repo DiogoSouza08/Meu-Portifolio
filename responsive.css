@@ -28,11 +28,11 @@
 }
 @media screen and (max-width: 478px) {
   .background-animated {
-    height: 800px;
+    height: 630px;
   }
   .my-img-container {
     width: 100%;
-    top: 250px;
+    top: 215px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -45,13 +45,13 @@
   .slogan-1 {
     font-size: 5vw;
     position: absolute;
-    top: 480px;
+    top: 420px;
     left: 14%;
   }
   .slogan-2 {
     font-size: 5vw;
     position: absolute;
-    top: 505px;
+    top: 450px;
     left: 17%;
   }
   @keyframes animated-text {
@@ -59,12 +59,12 @@
       width: 0;
     }
     to {
-      width: 75%;
+      width: 85%;
     }
   }
   .buttons-container {
-    display: block;
-    top: 500px;
+    display: flex;
+    top: 440px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -74,12 +74,12 @@
   }
   .fade {
     line-height: 300%;
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 375px) {
   .background-animated {
-    height: 600px;
+    height: 580px;
   }
   .my-img-container {
     width: 100%;
@@ -106,7 +106,7 @@
     left: 17%;
   }
   .buttons-container {
-    top: 430px;
+    top: 410px;
     width: 70%;
     left: 15%;
     display: flex;
