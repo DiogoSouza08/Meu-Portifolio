@@ -87,19 +87,20 @@
   display: flex;
   top: 440px;
   position: absolute;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
-  width: 100%;
+  width: 65%;
   height: auto;
-  left: 0%;
-  
+  left: 10%;
 
   
 }
 
 .fade{
-line-height: 300%;
+line-height: 240%;
 font-size: 3.5vw;
+position: relative;
+
 }
 
 }
@@ -140,8 +141,8 @@ font-size: 3.5vw;
 
 .buttons-container{
   top: 410px;
-  width: 70%;
-  left: 15%;
+  width: 72%;
+  left: 6.2%;
   display: flex;
 
 }
