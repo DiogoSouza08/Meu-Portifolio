@@ -35,7 +35,7 @@ $cor-secundaria: #55caff;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background-color: transparent;
+		background-color: #0c295e;
 		color: #fff;
 		padding: 30px;
 		z-index: 999;
@@ -52,7 +52,23 @@ $cor-secundaria: #55caff;
 		  justify-content: flex-end;
 		  align-items: center;
 		  font-family: $fonte-principal;
-		  
+
+		  &:hover {
+			  
+			li {
+			  a {
+				opacity: .5;
+			  }
+			  
+			  &:hover {
+				a {
+				opacity: 1;
+				}
+			  }
+			  
+			}
+			
+		  }
 		  ul {
 			display: flex;
 			margin: 0;
@@ -69,7 +85,9 @@ $cor-secundaria: #55caff;
 			}
 		  }
 		}
-	
+		
+			
+		
 		.menu-toggle {
 			display: none;
 			font-size: 24px;
@@ -102,7 +120,7 @@ $cor-secundaria: #55caff;
 			white-space: nowrap;
 			overflow: hidden;    
 			font-family: $fonte-principal;
-			font-size: 2.5vw;
+			font-size: 3vw;
 			color: #fff;
 			left: 30%;
 			position: absolute;
@@ -112,7 +130,7 @@ $cor-secundaria: #55caff;
 			white-space: nowrap;
 			overflow: hidden;    
 			font-family: $fonte-principal;
-			font-size: 2.9vw;
+			font-size: 3vw;
 			color: $cor-secundaria;
 			left: 30%;
 			position: absolute;
@@ -132,7 +150,7 @@ $cor-secundaria: #55caff;
 		  
 		  @keyframes animated-text{
 			from{width: 0;}
-			to{width: 41%;}
+			to{width: 50%;}
 		  }
 		  
 		  /* Animação do cursor */
@@ -204,5 +222,54 @@ $cor-secundaria: #55caff;
 				button.fade:hover::before {
 					opacity: 1;
 				}
+
+
+			.SobreMim-section{
+			width: 100%;
+			height: 90%;
+			position: absolute;
+			z-index: 999;
+			top: 666px;
+			color: #fff;
+			align-items: center;
+			justify-content: center;
+		}
+		.SobreMim-title-container{
+			display: flex;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			top: 15%;
+		}
+
+		.SobreMim-title{
+			color: $cor-secundaria;
+			font-family: $fonte-principal;
+			font-size: 3vw;
+			position: relative;
+			display: flex;
+
+		}
+		.SobreMim-description-container{
+			display: flex;
+			width: 100%;
+			position: absolute;
+			align-items: center;
+			justify-content: center;
+			top: 31%;
+			text-align: justify;
+		}
+		.SobreMim-description-text{
+
+			position: relative;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			width: 60%;
+			font-size: 1.6vw;
+			font-family: $fonte-principal;
+		}
+	
 
 

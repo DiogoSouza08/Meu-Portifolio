@@ -102,8 +102,41 @@ font-size: 3.5vw;
 position: relative;
 
 }
+.SobreMim-section{
+  height: 560px;
+}
+
+.SobreMim-title-container{
+  display: flex;
+  position: absolute;
+  top: 120px;
+}
+.SobreMim-title{
+font-size: 6vw;
+position: absolute;
+
 
 }
+
+.SobreMim-description-container{
+  display: flex;
+  position: absolute;
+  top: 140px;
+
+}
+
+
+.SobreMim-description-text{
+  font-size: 4vw;
+  width: 80%;
+  position: relative;
+  top: 20px;
+}
+
+}
+
+
+
 
 @media screen and (max-width: 375px) {
 
@@ -146,4 +179,17 @@ position: relative;
   display: flex;
 
 }
+.SobreMim-section{
+  height: 440px;
+}
+.SobreMim-title-container{
+  top: 50px;
+}
+
+.SobreMim-description-container{
+  top: 70px;
+
+}
+
+
 }
