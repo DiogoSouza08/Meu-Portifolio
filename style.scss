@@ -182,11 +182,11 @@ $cor-secundaria: #55caff;
 
 		  .fade {
 			background: 0 0;
+			width: 180%;
 			border-radius: 5px;
 			cursor: pointer;
-			height: 60%;
+			height: 100%;
 			line-height: 260%;
-			padding: 0 40% 0 40%;
 			position: relative;
 			transition: all .3s;
 			border: 2px solid #fff;
@@ -271,5 +271,14 @@ $cor-secundaria: #55caff;
 			font-family: $fonte-principal;
 		}
 	
+		.container-botao-sobre-mim{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			left: -2.8%;
+			top: 65%;
+		}
 
 

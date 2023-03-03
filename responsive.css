@@ -108,6 +108,10 @@
     position: relative;
     top: 20px;
   }
+  .container-botao-sobre-mim {
+    left: -6.8%;
+    top: 76%;
+  }
 }
 @media screen and (max-width: 375px) {
   .background-animated {
@@ -151,5 +155,9 @@
   }
   .SobreMim-description-container {
     top: 70px;
+  }
+  .container-botao-sobre-mim {
+    left: -6.8%;
+    top: 63%;
   }
 }/*# sourceMappingURL=responsive.css.map */
