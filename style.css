@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,300;1,400&display=swap");
 /* Variáveis */
 /* Reset */
 * {
@@ -21,6 +21,13 @@ body {
   width: auto;
   height: 86.5%;
   position: relative;
+}
+
+.background-animated-habilidades {
+  width: 100%;
+  height: 86.5%;
+  position: absolute;
+  top: 1200px;
 }
 
 header {
@@ -171,7 +178,6 @@ header {
   z-index: 0;
   margin: 60px auto 0 auto;
   color: #fff;
-  overflow: hidden;
   font-family: "Source Code Pro", monospace;
 }
 
@@ -205,7 +211,7 @@ button.fade:hover::before {
   position: absolute;
   z-index: 999;
   top: 666px;
-  color: #fff;
+  color: #7e7e7e;
   align-items: center;
   justify-content: center;
 }
@@ -244,15 +250,35 @@ button.fade:hover::before {
   display: flex;
   width: 60%;
   font-size: 1.6vw;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Poppins", sans-serif;
 }
 
-.container-botao-sobre-mim {
+.Habilidades-section {
   width: 100%;
+  height: 90%;
+  position: absolute;
+  z-index: 999;
+  top: 1220px;
+  color: #7e7e7e;
+  align-items: center;
+  justify-content: center;
   display: flex;
+}
+
+.Habilidades-title-container {
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: -2.8%;
-  top: 65%;
+  top: 195%;
+  z-index: 999;
+}
+
+.Habilidades-title {
+  color: #55caff;
+  font-family: "Source Code Pro", monospace;
+  font-size: 3vw;
+  position: relative;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

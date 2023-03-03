@@ -133,13 +133,23 @@ position: absolute;
   top: 20px;
 }
 
-.container-botao-sobre-mim{
-  left: -6.8%;
-  top: 76%;
+.background-animated-habilidades{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1300px;
 }
+.Habilidades-title-container{
+  display: flex;
+  position: absolute;
+  top: 1380px;
+}
+.Habilidades-title{
+font-size: 6vw;
+position: absolute;
 
 }
-
+}
 
 
 
@@ -195,11 +205,44 @@ position: absolute;
   top: 70px;
 
 }
-.container-botao-sobre-mim{
-  left: -6.8%;
-  top: 63%;
+.background-animated-habilidades{
+top: 1160px;
+}
+.Habilidades-title-container{
+  top: 1210px;
+}
+
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 334px) {
+
+  .background-animated-habilidades{
+    top: 1075px;
+    }
+    .Habilidades-title-container{
+      top: 1130px;
+    }
 }
