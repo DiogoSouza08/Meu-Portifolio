@@ -26,10 +26,7 @@
     text-decoration: none;
   }
 }
-@media screen and (max-width: 478px) {
-  .background-animated {
-    height: 630px;
-  }
+@media screen and (max-width: 480px) {
   .my-img-container {
     width: 100%;
     top: 215px;
@@ -85,34 +82,26 @@
     font-size: 3.5vw;
     position: relative;
   }
-  .SobreMim-section {
-    height: 560px;
-  }
   .SobreMim-title-container {
     display: flex;
     position: absolute;
-    top: 120px;
+    top: 118px;
   }
   .SobreMim-title {
     font-size: 6vw;
     position: absolute;
   }
-  .SobreMim-description-container {
-    display: flex;
-    position: absolute;
-    top: 140px;
-  }
   .SobreMim-description-text {
     font-size: 4vw;
     width: 80%;
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 12px;
   }
   .background-animated-habilidades {
     width: 100%;
-    height: 100%;
     position: absolute;
-    top: 1300px;
+    top: 1380px;
+    height: 710px;
   }
   .Habilidades-title-container {
     display: flex;
@@ -123,8 +112,17 @@
     font-size: 6vw;
     position: absolute;
   }
+  .Habilidades-title-container {
+    top: 1480px;
+  }
+  .card {
+    width: 37%;
+  }
+  .cards-container {
+    top: 60px;
+  }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) and (max-width: 425px) {
   .background-animated {
     height: 568px;
   }
@@ -158,9 +156,6 @@
     left: 6.2%;
     display: flex;
   }
-  .SobreMim-section {
-    height: 440px;
-  }
   .SobreMim-title-container {
     top: 50px;
   }
@@ -169,16 +164,21 @@
   }
   .background-animated-habilidades {
     top: 1160px;
+    height: 585px;
   }
   .Habilidades-title-container {
-    top: 1210px;
+    top: 1230px;
   }
 }
-@media screen and (max-width: 334px) {
-  .background-animated-habilidades {
-    top: 1075px;
-  }
+@media screen and (max-width: 480px) and (max-width: 350px) {
   .Habilidades-title-container {
     top: 1130px;
+  }
+  .background-animated-habilidades {
+    height: 470px;
+    top: 1042px;
+  }
+  .Habilidades-title-container {
+    top: 1090px;
   }
 }/*# sourceMappingURL=responsive.css.map */

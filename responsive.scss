@@ -35,11 +35,8 @@
 
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 480px) {
 
-.background-animated{
-  height: 630px;
-}
 
 .my-img-container {
   width: 100%;
@@ -102,14 +99,11 @@ font-size: 3.5vw;
 position: relative;
 
 }
-.SobreMim-section{
-  height: 560px;
-}
 
 .SobreMim-title-container{
   display: flex;
   position: absolute;
-  top: 120px;
+  top: 118px;
 }
 .SobreMim-title{
 font-size: 6vw;
@@ -118,26 +112,19 @@ position: absolute;
 
 }
 
-.SobreMim-description-container{
-  display: flex;
-  position: absolute;
-  top: 140px;
-
-}
-
 
 .SobreMim-description-text{
   font-size: 4vw;
   width: 80%;
-  position: relative;
-  top: 20px;
+  position: absolute;
+  top: 12px;
 }
 
 .background-animated-habilidades{
   width: 100%;
-  height: 100%;
   position: absolute;
-  top: 1300px;
+  top: 1380px;
+  height: 710px;
 }
 .Habilidades-title-container{
   display: flex;
@@ -149,11 +136,42 @@ font-size: 6vw;
 position: absolute;
 
 }
+.Habilidades-title-container{
+  top: 1480px;
+}
+
+.card{
+  width: 37%;
+}
+
+.cards-container{
+  top: 60px;
 }
 
 
 
-@media screen and (max-width: 375px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
 
 .background-animated{
   height: 568px;
@@ -194,9 +212,7 @@ position: absolute;
   display: flex;
 
 }
-.SobreMim-section{
-  height: 440px;
-}
+
 .SobreMim-title-container{
   top: 50px;
 }
@@ -207,9 +223,10 @@ position: absolute;
 }
 .background-animated-habilidades{
 top: 1160px;
+height: 585px;
 }
 .Habilidades-title-container{
-  top: 1210px;
+  top: 1230px;
 }
 
 }
@@ -237,12 +254,17 @@ top: 1160px;
 
 
 
-@media screen and (max-width: 334px) {
+@media screen and (max-width: 350px) {
 
-  .background-animated-habilidades{
-    top: 1075px;
-    }
     .Habilidades-title-container{
       top: 1130px;
     }
+    .background-animated-habilidades{
+      height: 470px;
+      top: 1042px;
+    }
+    .Habilidades-title-container{
+      top: 1090px;
+    }
+}
 }

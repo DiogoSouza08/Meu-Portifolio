@@ -19,15 +19,15 @@ body {
 
 .background-animated {
   width: auto;
-  height: 86.5%;
+  height: 600px;
   position: relative;
 }
 
 .background-animated-habilidades {
-  width: 100%;
-  height: 86.5%;
-  position: absolute;
-  top: 1200px;
+  width: auto;
+  height: 600px;
+  position: relative;
+  top: 500px;
 }
 
 header {
@@ -207,7 +207,7 @@ button.fade:hover::before {
 
 .SobreMim-section {
   width: 100%;
-  height: 90%;
+  height: 200px;
   position: absolute;
   z-index: 999;
   top: 666px;
@@ -222,7 +222,7 @@ button.fade:hover::before {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 15%;
+  top: 80px;
 }
 
 .SobreMim-title {
@@ -239,7 +239,7 @@ button.fade:hover::before {
   position: absolute;
   align-items: center;
   justify-content: center;
-  top: 31%;
+  top: 195px;
   text-align: justify;
 }
 
@@ -255,7 +255,7 @@ button.fade:hover::before {
 
 .Habilidades-section {
   width: 100%;
-  height: 90%;
+  height: 120px;
   position: absolute;
   z-index: 999;
   top: 1220px;
@@ -271,14 +271,30 @@ button.fade:hover::before {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 195%;
+  top: 1270px;
   z-index: 999;
-}
-
-.Habilidades-title {
   color: #55caff;
   font-family: "Source Code Pro", monospace;
   font-size: 3vw;
-  position: relative;
+}
+
+.cards-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: absolute;
+  z-index: 999;
+  top: 120px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 16%;
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

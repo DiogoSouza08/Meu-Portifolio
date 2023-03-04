@@ -27,14 +27,15 @@ $cor-secundaria: #55caff;
 
 	.background-animated{
 		width: auto;
-		height: 86.5%;
+		height: 600px;
 		position: relative;
 	}
 	.background-animated-habilidades{
-		width: 100%;
-		height: 86.5%;
-		position: absolute;
-		top: 1200px;
+		width: auto;
+		height: 600px;
+		position: relative;
+		top: 500px;
+		
 	}
 	
 	header {
@@ -231,7 +232,7 @@ $cor-secundaria: #55caff;
 
 			.SobreMim-section{
 			width: 100%;
-			height: 90%;
+			height: 200px;
 			position: absolute;
 			z-index: 999;
 			top: 666px;
@@ -245,7 +246,7 @@ $cor-secundaria: #55caff;
 			align-items: center;
 			justify-content: center;
 			position: absolute;
-			top: 15%;
+			top: 80px;
 		}
 
 		.SobreMim-title{
@@ -262,7 +263,7 @@ $cor-secundaria: #55caff;
 			position: absolute;
 			align-items: center;
 			justify-content: center;
-			top: 31%;
+			top: 195px;
 			text-align: justify;
 		}
 		.SobreMim-description-text{
@@ -278,7 +279,7 @@ $cor-secundaria: #55caff;
 	
 		.Habilidades-section{
 			width: 100%;
-			height: 90%;
+			height: 120px;
 			position: absolute;
 			z-index: 999;
 			top: 1220px;
@@ -294,16 +295,34 @@ $cor-secundaria: #55caff;
 			align-items: center;
 			justify-content: center;
 			position: absolute;
-			top: 195%;
+			top: 1270px;
 			z-index: 999;
-			
-		}
-
-		.Habilidades-title{
 			color: $cor-secundaria;
 			font-family: $fonte-principal;
 			font-size: 3vw;
-			position: relative;
-			display: flex;
-
 		}
+
+
+
+		.cards-container{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 90%;
+			position: absolute;
+			z-index: 999;
+			top: 120px;
+			height: auto;
+			flex-wrap: wrap;
+			
+		}
+
+		.card{
+			width: 16%;
+			transition: transform .4s;
+		}
+
+
+		.card:hover {
+			transform: scale(1.1) 
+		  }	
