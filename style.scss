@@ -19,7 +19,7 @@ $cor-secundaria: #55caff;
 	body{
 		justify-content: center;
 		align-items: center;
-		width: 100%;
+		width: auto;
 		height: 100vh;
 		background-color: #0c295e;
 		
@@ -150,7 +150,7 @@ $cor-secundaria: #55caff;
 		  }
 		  
 		  .slogan-2 {
-			animation: animated-text 4s steps(29,end) 5s 1 normal both,
+			animation: animated-text2 4s steps(29,end) 5s 1 normal both,
 		  }
 		  
 		  /* Animação de Texto */
@@ -159,9 +159,13 @@ $cor-secundaria: #55caff;
 			from{width: 0;}
 			to{width: 50%;}
 		  }
-		  
-		  /* Animação do cursor */
-		  
+	
+	
+		  @keyframes animated-text2{
+			from{width: 0;}
+			to{width: 50%;}
+		  }
+	
 	
 
 		  .my-img-container{
